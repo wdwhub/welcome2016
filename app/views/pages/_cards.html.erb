@@ -1,7 +1,9 @@
 <div class="cards">
   <div class="card">
     <div class="card-image">
-      <%= image_tag "DisneysArtofAnimationResort-RidetheColorWave.jpg", :title => "Hotels" %>
+      <%= link_to("//hotels.wdwhub.net/") do %>
+          <%= image_tag "DisneysArtofAnimationResort-RidetheColorWave.jpg", :title => "Hotels" %>
+      <% end %>
     </div>
     <div class="card-header">
       Walt Disney World Hotels
@@ -13,7 +15,9 @@
 
   <div class="card">
     <div class="card-image">
-      <%= image_tag "2160747261_741feae5d6_z.jpg", :title => "Walt Disney World Dining" %>
+        <%= link_to("//dining.wdwhub.net/") do %>
+          <%= image_tag "2160747261_741feae5d6_z.jpg", :title => "Walt Disney World Dining" %>
+        <% end %>
     </div>
     <div class="card-header">
       Walt Disney World Dining
@@ -25,13 +29,15 @@
 
   <div class="card">
     <div class="card-image">
-      <%= image_tag "4601302443_904025c08d_z.jpg", :title => "Disney Parks" %>
+      <%#= link_to("//fun.wdwhub.net/") do %>
+          <%= image_tag "4601302443_904025c08d_z.jpg", :title => "Disney Parks" %>
+      <%# end %>
     </div>
     <div class="card-header">
-      Disney Parks
+      Disney Parks &amp; Fun
     </div>
     <div class="card-copy">
-      <p>They're the best in the world.  We are here to help you scout them out.</p>
+      <p>Coming Soon! They're the best in the world.  We will help you scout them out.</p>
     </div>
   </div>
 </div>
